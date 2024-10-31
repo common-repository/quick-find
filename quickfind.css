@@ -1,0 +1,69 @@
+.quickfind-active {
+position: relative;
+padding: 1px 0 3px 25px !important;
+}
+
+.quickfind ul {
+display: none;
+border: none !important;
+margin-left: 10px;
+}
+
+#adminmenu .wp-submenu li .quickfind li,
+.quickfind li {
+margin: 0 0 4px;
+}
+
+.quickfind li,
+.quickfind a,
+#adminmenu .wp-submenu .quickfind a,
+#adminmenu li.wp-has-current-submenu ul li .quickfind a {
+background: none !important;
+padding: 0 !important;
+border: none !important;
+line-height: 1.1;
+}
+
+.quickfind {
+padding: 0 0 12px 22px;
+border-left: 1px solid #e3e3e3 !important;
+border-right: 1px solid #e3e3e3 !important;
+border-bottom: none !important;
+}
+
+#adminmenu li.wp-has-current-submenu .quickfind {
+border-color: #a9a9a9 !important;
+}
+
+.quickfind a,
+#adminmenu .wp-submenu .quickfind a,
+#adminmenu li.wp-has-current-submenu ul li .quickfind a {
+position: relative;
+padding: 1px 0 3px 13px !important;
+}
+
+.quickfind-active .active,
+.quickfind .toggle {
+position: absolute;
+top: 4px;
+left: 0;
+display: block;
+width: 7px;
+height: 7px;
+margin: 0 5px 0 0;
+}
+
+.quickfind-active .active {
+top: 6px;
+left: 12px;
+}
+
+.quickfind-active .active,
+.quickfind .filled > a .toggle {
+background: url(quickfind.gif) 0 -93px no-repeat;
+}
+
+.quickfind-open .active,
+.quickfind .filled > a .toggle-open {
+background-position: 0 0;
+}
